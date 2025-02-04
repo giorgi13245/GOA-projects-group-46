@@ -1,0 +1,57 @@
+#a1{
+    text-decoration: underline dotted rgb(5, 153, 5);
+    text-align: right;
+}
+
+#a2{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#a3{
+    text-decoration:overline  rgb(212, 23, 23)
+}
+
+#a4{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#a5{
+    text-decoration: line-through dotted rgb(9, 255, 9);
+    text-align: right;
+}
+
+#a6{
+    text-decoration: line-through;
+}
+
+#a7{
+    text-decoration: overline;
+}
+
+#a8{
+    text-decoration: overline rgb(32, 160, 32);
+    text-align: right;
+}
+
+#a9{
+    text-decoration: overline rgb(134, 131, 131);
+    text-align: center;
+    font-size: x-large;
+    color: rgb(134, 131, 131);
+}
+
+#a10{
+    text-decoration: underline dotted rgb(1, 136, 1);
+    text-align: right;
+}
+
+
+#par{
+    text-decoration: underline wavy rgb(16, 158, 16);
+}
+
+#txt{
+    text-decoration: overline underline dashed rgb(201, 21, 21);
+}
