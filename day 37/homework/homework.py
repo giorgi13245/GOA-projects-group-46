@@ -1,5 +1,7 @@
 #1
-# 
+def array(string):
+    return " ".join(string.split(",")[1:-1]) or None
+                        
 
 #2
 def temple_strings(obj, feature): 

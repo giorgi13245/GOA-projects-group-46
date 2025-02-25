@@ -1,5 +1,11 @@
 #1
-# 
+def to_jaden_case(string):
+    list=string.split()
+    list2=[]
+    for i in list:
+        i=i.capitalize()
+        list2.append(i)
+    return " ".join(list2)
 
 
 
