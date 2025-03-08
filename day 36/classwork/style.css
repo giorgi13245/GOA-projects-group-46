@@ -1,0 +1,26 @@
+
+#div1{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin: 20px;
+}
+
+#div2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    justify-content: right;
+}
+
+#div1:hover{
+    transform: scale(2);
+    background-color: palevioletred;
+}
+
+#div2:hover{
+    transform: scale(2);
+    background-color: green;
+}

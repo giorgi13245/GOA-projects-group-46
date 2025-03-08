@@ -1,0 +1,13 @@
+#ol li{
+    list-style-position: outside;
+    
+    list-style-type:upper-roman;
+}
+#ul li{
+    list-style-position: outside;
+    
+    list-style-type:square;
+}
+
+
+
