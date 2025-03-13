@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#up{
+    display: flex;
+    flex-direction: row;
+}
+
+#down{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.red{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red
+;
+}
+.blue{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue
+
+}

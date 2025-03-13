@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mainDiv{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#buttonDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.button{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    padding: 10px;
+    width: 250px;
+    font-weight: 600;
+    border-radius: 7px ;
+}
+
+#name{
+    color: white;
+    font-size: 21px;
+}
+
+#London{
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#job{
+    color: rgb(194, 194, 194) ;
+    font-size: 12px;
+    font-weight:500 ;
+}
+
+#img{
+    border-radius: 50%;
+    width: 75px;
+}
+
+#infoDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#personDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
