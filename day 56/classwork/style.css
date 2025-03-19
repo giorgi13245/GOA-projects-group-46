@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#blackDiv{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    transition: 2s;
+}
+
+#blackDiv:hover{
+    background-color: blue;
+}
