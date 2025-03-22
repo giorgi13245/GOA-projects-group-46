@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: navy;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainDiv{
+    width: 500px;
+    height: 700px;
+    padding: 15px;
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+    #mainDiv{
+        width: 300px;
+        height: 550px;
+        justify-content: start;
+        align-items: left ;
+    }
+
+    p{
+        font-size: 13px;
+    }
+}
+

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#redDiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1s;
+}
+
+#blackDiv{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 1s;
+}
+
+#redDiv:hover{
+    transform: translateX(200px);
+}
+
+#blackDiv:hover{
+    transform: translateX(-200px);
+}

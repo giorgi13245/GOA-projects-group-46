@@ -1,0 +1,25 @@
+div{
+    width: 80%;
+    background-color: blue;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+
+@media (max-width:1000px){
+    div{
+        width: 40%;
+    }
+}
+@media (max-width:900px){
+    div{
+        width: 20%;
+    }
+}
+@media (max-width:750px){
+    div{
+        width: 10%;
+    }
+}
