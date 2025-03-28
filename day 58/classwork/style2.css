@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 150px;
+    background-color: navy;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes change{
+    from{
+        background-color: navy;
+    }
+
+    to{
+        background-color: orange;
+        transform: scale(2);
+    }
+}

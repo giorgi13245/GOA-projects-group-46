@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: navy;
+    animation-name: change;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change{
+    0%{
+        top: 40px;
+        background-color: red;
+    }
+
+    33%{
+        right: 60px;
+        background-color: green;
+    }
+
+    66%{
+        bottom: 40px;
+        background-color: yellow;
+    }
+
+    100%{
+        left: 60px;
+        background-color: navy;
+    }
+}
