@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+}
+
+#MainDiv{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#rightDiv{
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#MainP{
+    color: hsl(217, 19%, 35%);
+    font-size: 1.75rem;
+    font-weight: 500;
+
+}
+
+#descP{
+    color: hsl(214, 17%, 51%);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+#authorImg{
+    border-radius: 50%;
+}
+
+#bottomDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottomLeft{
+    display: flex;
+    gap: 15px;
+}
+
+#nameDiv{
+    transform: translateY(10px);
+}
+
+#shareImg{
+    width: 20px;
+    height: 20px;
+    transform: translateY(20px);
+}
+
+
