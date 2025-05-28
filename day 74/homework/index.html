@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let myArr = [1,2,3,4,5,6,7,8,9,10]
+        let myArr1 = ["a","b","c","d","e","f","g","h","i","j"]
+        let resArr = myArr.concat(myArr1)
+        delete resArr[5]
+        resArr.pop()
+        resArr.shift()
+        resArr.unshift("vano")
+        resArr.push("motiashvili")
+        console.log(resArr.toString())
+
+
+
+        let arr = [1,2,3,4]
+        let arr1 = [5,6,7,8]
+        let arr2 = [9,10,11,12,14,67]
+        let res = arr.concat(arr1)
+        let res1 =res.concat(arr2)
+        res1.splice(2, 5)
+        delete res1[3]
+        console.log(res1[res1.length-1])
+    </script>
+</body>
+</html>

@@ -7,3 +7,6 @@ resArr.shift()
 resArr.unshift("vano")
 resArr.push("motiashvili")
 console.log(resArr.toString())
+
+
+
