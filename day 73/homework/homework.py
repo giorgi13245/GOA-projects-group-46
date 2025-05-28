@@ -34,3 +34,21 @@ def decode(st):
 
 def sortme(words):
     return sorted(words, key=str.lower)
+
+
+def count(s):
+    dict={}
+    
+    for i in s:
+        if i not in dict:
+            dict[i]=s.count(i)
+            
+    return dict
+
+
+def get_participants(handshakes):
+    participants = 0
+    while handshakes > 0:
+        handshakes -= participants
+        participants += 1
+    return participants
