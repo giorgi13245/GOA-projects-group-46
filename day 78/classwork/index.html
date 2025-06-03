@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //N1
+        let age = Number(prompt("Enter your age"))
+
+        if(age<14){
+            console.log("You are kid")
+        }else if(age>14 && age<18){
+            console.log("You are not adult yet")
+        }else{
+            console.log("You are adult")
+        }
+
+        //N2
+        let name = ""
+        let guestName = name || "guest"
+        console.log(`Hello ${guestName}`)
+
+        //N3
+        let name1 = prompt("Enter your name")
+        let age1 = Number(prompt("Enter your age"))
+        if(age1<18){
+            console.log(`You are not adult yet ${name1}!`)
+        }else{
+            console.log(`Hello ${name1}!`)
+        }
+    </script>
+</body>
+</html>
