@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //N1
+        let num = prompt("Enter number")
+        if(num%2==0){
+            console.log("Odd")
+        }else{
+            console.log("even")
+        }
+
+        //N2
+        let age = Number(prompt("enter your age"))
+        if(age<18){
+            console.log("You got 50% discount")
+        }else{
+            console.log("You should pay full price")
+        }
+
+        //N3
+        let age1 = Number(prompt("enter your age"))
+        if(age1<18){
+            console.log("You got 50% discount")
+        }else if(age1===18){
+            console.log("You got 25% discount")
+        }else{
+            console.log("You should pay full price")
+        }
+
+        //N4
+        //თუ ცვლადის მნიშვნელობაა:0,"",false მისი მნიშვნელობაა false, ყველა სხვა შემთხვევაში true
+
+
+        //N5
+        let name = prompt("enter your name")
+        if(name.length>=6){
+            console.log(`Hello, my friend ${name}`)
+        }else{
+            console.log(`Hello, ${name}`)
+        }
+    </script>
+</body>
+</html>
