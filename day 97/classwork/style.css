@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div{
+    display: grid;
+    gap: 5px;
+    grid-template-rows: repeat(2,400px);
+    grid-template-columns: repeat(4,100px);
+    grid-template-areas: 
+    "grn grn grn prpl "
+    "oj1 oj1 oj2 oj2 ";
+}
+
+#grn{
+    background-color: green;
+    grid-area: grn;
+}
+
+#prpl{
+    background-color: purple;
+    grid-area: prpl;
+}
+
+#oj1{
+    background-color: orange;
+    grid-area: oj1;
+}
+
+#oj2{
+    background-color: orange;
+    grid-area: oj2;
+}

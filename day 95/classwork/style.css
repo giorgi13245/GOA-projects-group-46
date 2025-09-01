@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(30, 180, 180);
+}
+
+#parent{
+    display: grid;
+    gap: 2px;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(5, 100px);
+    grid-template-areas:
+    "input input input input input"
+    "C del divi mult power"
+    "a7 a8 a9 a- power"
+    "a4 a5 a6 aPlus procent"
+    "a1 a2 a3 equal eo"
+    "a0 a0 aDot equal eo";
+}
+
+button{
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: orangered;
+}
+
+.C{
+    grid-area: C;
+}
+
+.divi{
+    grid-area: divi;
+}
+
+.mult{
+    grid-area: mult;
+}
+
+.a7{
+    grid-area: a7;
+}
+
+.a8{
+    grid-area: a8;
+}
+
+.a9{
+    grid-area: a9;
+}
+
+.a6{
+    grid-area: a6;
+}
+
+.a5{
+    grid-area: a5;
+}
+
+.a4{
+    grid-area: a4;
+}
+
+.a3{
+    grid-area: a3;
+}
+
+.a2{
+    grid-area: a2;
+}
+
+.a1{
+    grid-area: a1;
+}
+
+.a0{
+    grid-area: a0;
+}
+
+.aDot{
+    grid-area: aDot;
+}
+
+.a-{
+    grid-area: a-;
+}
+
+.aPlus{
+    grid-area: aPlus;
+}
+
+.equal{
+    grid-area: equal;
+}
+
+input{
+    grid-area: input;
+    background-color: navy;
+    border: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.del{
+    grid-area: del;
+}
+
+.op{
+    background-color: rgb(26, 136, 136);
+    border: none;
+}
+
+.num{
+    background-color: navy;
+    border: none;
+}
+
+.procent{
+    grid-area: procent;
+}
+
+.power{
+    grid-area: power;
+}
+
+.eo{
+    grid-area: eo;
+}

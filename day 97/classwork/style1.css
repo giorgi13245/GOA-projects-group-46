@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div{
+    display: grid;
+    gap: 5px;
+    grid-template-rows: repeat(3, 170px);
+    grid-template-columns: repeat(3, 170px);
+    grid-template-areas: 
+    "big big cyan"
+    "big big oj"
+    "pur pink blue"; 
+}
+    
+
+
+#big{
+    background-color: lime;
+    grid-area: big;
+}
+
+#cyan{
+    background-color: cyan;
+    grid-area: cyan;
+}
+
+#oj{
+    background-color: orange;
+    grid-area: oj;
+}
+
+#blue{
+    background-color: blue;
+    grid-area: blue;
+}
+
+#pink{
+    background-color: pink;
+    grid-area: pink;
+}
+
+#pur{
+    background-color: purple;
+    grid-area: pur;
+}
